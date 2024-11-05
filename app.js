@@ -33,13 +33,6 @@ app.set('etag',WEB_CACHE)
 
 
 
-
-// MongoDB connection
-/*
-You Need to connect mongoDB Here
-*/
-
-
 // Set API Routes
 app.use("/api",router)
 
